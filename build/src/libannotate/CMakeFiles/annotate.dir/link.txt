@@ -1,2 +1,0 @@
-/usr/bin/ar qc libannotate.a CMakeFiles/annotate.dir/Annotation.cpp.o CMakeFiles/annotate.dir/addArcs.cpp.o CMakeFiles/annotate.dir/addMarkers.cpp.o CMakeFiles/annotate.dir/addSatellites.cpp.o CMakeFiles/annotate.dir/arrangeMarkers.cpp.o CMakeFiles/annotate.dir/drawArc.cpp.o CMakeFiles/annotate.dir/drawCircle.cpp.o CMakeFiles/annotate.dir/Icon.cpp.o CMakeFiles/annotate.dir/LineSegment.cpp.o CMakeFiles/annotate.dir/Symbol.cpp.o CMakeFiles/annotate.dir/Text.cpp.o
-/usr/bin/ranlib libannotate.a

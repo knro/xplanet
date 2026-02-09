@@ -185,9 +185,9 @@ set(MAPEXT "jpg" CACHE STRING "Default map extension")
 # Set package variables for config.h
 set(PACKAGE "xplanet")
 set(PACKAGE_NAME "xplanet")
-set(PACKAGE_VERSION "1.3.0")
-set(VERSION "1.3.0")
-set(PACKAGE_STRING "xplanet 1.3.0")
+set(PACKAGE_VERSION "1.3.1")
+set(VERSION "1.3.1")
+set(PACKAGE_STRING "xplanet 1.3.1")
 set(PACKAGE_TARNAME "xplanet")
 set(PACKAGE_BUGREPORT "")
 set(PACKAGE_URL "")
@@ -246,19 +246,9 @@ install(FILES
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/xplanet/fonts
 )
 
-install(FILES
-    xplanet/images/README
-    xplanet/images/earth.jpg
-    xplanet/images/hubble.png
-    xplanet/images/iss.png
-    xplanet/images/mgs.png
-    xplanet/images/night.jpg
-    xplanet/images/odyssey.png
-    xplanet/images/shuttle.png
-    xplanet/images/smile.png
-    xplanet/images/sublunar.png
-    xplanet/images/subsolar.png
-    xplanet/images/sun.jpg
+# Install all image files
+file(GLOB IMAGE_FILES "xplanet/images/*")
+install(FILES ${IMAGE_FILES}
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/xplanet/images
 )
 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmoons.a CMakeFiles/moons.dir/earth.cpp.o CMakeFiles/moons.dir/mars.cpp.o CMakeFiles/moons.dir/jupiter.cpp.o CMakeFiles/moons.dir/saturn.cpp.o CMakeFiles/moons.dir/uranus.cpp.o CMakeFiles/moons.dir/neptune.cpp.o CMakeFiles/moons.dir/pluto.cpp.o
-/usr/bin/ranlib libmoons.a

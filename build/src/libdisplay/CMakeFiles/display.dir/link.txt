@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdisplay.a CMakeFiles/display.dir/DisplayBase.cpp.o CMakeFiles/display.dir/DisplayOutput.cpp.o CMakeFiles/display.dir/getDisplay.cpp.o CMakeFiles/display.dir/TextRenderer.cpp.o CMakeFiles/display.dir/getTextRenderer.cpp.o CMakeFiles/display.dir/DisplayX11.cpp.o CMakeFiles/display.dir/TextRendererFT2.cpp.o CMakeFiles/display.dir/TextRendererPangoFT2.cpp.o
-/usr/bin/ranlib libdisplay.a
