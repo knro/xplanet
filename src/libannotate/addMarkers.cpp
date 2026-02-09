@@ -423,7 +423,7 @@ addMarkers(PlanetProperties *planetProperties, Planet *planet,
         {
             ifstream inFile(markerFile.c_str());
             char *line = new char[MAX_LINE_LENGTH];
-            while (inFile.getline (line, MAX_LINE_LENGTH, '\n') != NULL)
+            while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
             {
                 unsigned char color[3];
                 memcpy(color, planetProperties->MarkerColor(), 3);
@@ -469,7 +469,7 @@ addMarkers(View *view, const int width, const int height,
         {
             ifstream inFile(markerFile.c_str());
             char *line = new char[MAX_LINE_LENGTH];
-            while (inFile.getline (line, MAX_LINE_LENGTH, '\n') != NULL)
+            while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
             {
                 unsigned char color[3];
                 memcpy(color, options->Color(), 3);

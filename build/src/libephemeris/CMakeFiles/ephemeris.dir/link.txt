@@ -1,0 +1,2 @@
+/usr/bin/ar qc libephemeris.a CMakeFiles/ephemeris.dir/Ephemeris.cpp.o CMakeFiles/ephemeris.dir/EphemerisHigh.cpp.o CMakeFiles/ephemeris.dir/EphemerisLow.cpp.o CMakeFiles/ephemeris.dir/ephemerisWrapper.cpp.o CMakeFiles/ephemeris.dir/jpleph.cpp.o CMakeFiles/ephemeris.dir/pluto.cpp.o
+/usr/bin/ranlib libephemeris.a

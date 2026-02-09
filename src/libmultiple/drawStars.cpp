@@ -41,7 +41,7 @@ drawStars(DisplayBase *display, View *view)
     ifstream inFile(starMap.c_str());
 
     char line[MAX_LINE_LENGTH];
-    while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+    while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
     {
         if (line[0] == '#') continue;
 

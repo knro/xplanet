@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/projection.dir/ProjectionAncient.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionAncient.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionAzimutEqualArea.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionAzimutEqualArea.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionAzimuthal.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionAzimuthal.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionBase.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionBase.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionBonne.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionBonne.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionGnomonic.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionGnomonic.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionHemisphere.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionHemisphere.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionIcosagnomonic.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionIcosagnomonic.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionLambert.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionLambert.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionMercator.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionMercator.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionMollweide.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionMollweide.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionOrthographic.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionOrthographic.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionPeters.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionPeters.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionPolyconic.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionPolyconic.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionRectangular.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionRectangular.cpp.o.d"
+  "CMakeFiles/projection.dir/ProjectionTSC.cpp.o"
+  "CMakeFiles/projection.dir/ProjectionTSC.cpp.o.d"
+  "CMakeFiles/projection.dir/getProjection.cpp.o"
+  "CMakeFiles/projection.dir/getProjection.cpp.o.d"
+  "libprojection.a"
+  "libprojection.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/projection.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

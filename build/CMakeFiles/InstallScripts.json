@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jasem/Projects/development/kde/xplanet/build/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libannotate/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libdisplay/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libephemeris/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libephemeris/libmoons/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libimage/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libmultiple/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libplanet/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libprojection/cmake_install.cmake",
+		"/home/jasem/Projects/development/kde/xplanet/build/src/libsgp4sdp4/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

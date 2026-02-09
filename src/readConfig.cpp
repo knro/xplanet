@@ -550,7 +550,7 @@ readConfigFile(string configFile, PlanetProperties *planetProperties[])
 
         ifstream inFile(configFile.c_str());
         char *line = new char[256];
-        while (inFile.getline(line, 256, '\n') != NULL)
+        while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
             readConfig(line, planetProperties);
         
         // This condition will only be true if [default] is the only

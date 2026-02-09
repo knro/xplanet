@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsgp4sdp4.a CMakeFiles/sgp4sdp4.dir/sgp4sdp4.c.o CMakeFiles/sgp4sdp4.dir/sgp_in.c.o CMakeFiles/sgp4sdp4.dir/sgp_math.c.o CMakeFiles/sgp4sdp4.dir/sgp_obs.c.o CMakeFiles/sgp4sdp4.dir/sgp_time.c.o CMakeFiles/sgp4sdp4.dir/solar.c.o
+/usr/bin/ranlib libsgp4sdp4.a

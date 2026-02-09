@@ -524,7 +524,7 @@ processSpiceKernels(const bool load)
         {
             ifstream inFile(kernelFile.c_str());
             char *line = new char[MAX_LINE_LENGTH];
-            while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+            while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
             {
                 int ii = 0;
                 while (isDelimiter(line[ii]))
@@ -576,7 +576,7 @@ addSpiceObjects(map<double, Planet *> &planetsFromSunMap,
         {
             ifstream inFile(spiceFile.c_str());
             char *line = new char[MAX_LINE_LENGTH];
-            while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+            while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
                 readSpiceFile(line, planetsFromSunMap, view, projection,
                               annotationMap);
             inFile.close();

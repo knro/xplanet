@@ -369,7 +369,7 @@ RayleighScattering::readConfigFile(string configFile)
 
     diskTemplate_.clear();
     limbTemplate_.clear();
-    while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+    while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
     {
         int i = 0;
         while (isDelimiter(line[i]))
@@ -439,7 +439,7 @@ RayleighScattering::readBlock(ifstream &inFile,
     values.clear();
 
     char line[MAX_LINE_LENGTH];
-    while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+    while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
     {
         int i = 0;
         while (isDelimiter(line[i]))
@@ -470,7 +470,7 @@ RayleighScattering::readValue(ifstream &inFile,
                               double &value)
 {
     char line[MAX_LINE_LENGTH];
-    while (inFile.getline(line, MAX_LINE_LENGTH, '\n') != NULL)
+    while (inFile.getline(line, MAX_LINE_LENGTH, '\n'))
     {
         int i = 0;
         while (isDelimiter(line[i]))
